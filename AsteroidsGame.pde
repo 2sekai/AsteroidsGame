@@ -38,7 +38,7 @@ public void keyPressed() {
   }
 
   if (key == 'r'  || key == 'R' || key =='3') {
-    hi.hyperspace(0, (int)(Math.random()*500), (int)(Math.random()*500));
+    hi.hyperspace(0, (int)(Math.random()*500), (int)(Math.random()*500),(int)(Math.random()*360));
   }
 
   if (pressW == true && pressD == true) {
