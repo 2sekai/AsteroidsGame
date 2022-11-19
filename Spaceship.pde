@@ -9,11 +9,12 @@ class Spaceship extends Floater
     myColor = 210;
   }
   
-  public void hyperspace(double x, double y, double z){
+  public void hyperspace(double x, double y, double z, double d){
     myXspeed = x;
     myYspeed = x;
     myCenterX= y;
     myCenterY= z;
+    myPointDirection =d;
   }
 }
 
