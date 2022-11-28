@@ -1,8 +1,8 @@
-Spaceship hi = new Spaceship();
-Star [] stars = new Star[100]; 
-boolean pressW = false;
-boolean pressD = false;
-boolean pressA = false;
+private Spaceship hi = new Spaceship();
+private Star [] stars = new Star[100]; 
+private boolean pressW = false;
+private boolean pressD = false;
+private boolean pressA = false;
 public void setup() 
 {
   size(500, 500);
@@ -51,7 +51,7 @@ public void keyPressed() {
   }
 }
 
-void keyReleased() {
+public void keyReleased() {
   if (key == 'w' || key == 'W' || key == '8')
     pressW = false;
   if (key == 'a' || key == 'A' || key == '4')
